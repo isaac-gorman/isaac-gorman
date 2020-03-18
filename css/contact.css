@@ -1,0 +1,599 @@
+/*  -------------------Mobile Version---------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+html  {
+    background-color: #F9F8F2;
+    box-sizing: border-box;
+    z-index: -1;
+}
+
+
+
+
+/* Fonts */
+@font-face {
+    font-family: 'airbnb_cereal_appmedium';
+    src: url('../fonts/airbnbcerealmedium-webfont.woff2') format('woff2'),
+         url('../fonts/airbnbcerealmedium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+@font-face {
+    font-family: 'airbnb_cereal_applight';
+    src: url('../fonts/airbnbcereallight-webfont.woff2') format('woff2'),
+         url('../fonts/airbnbcereallight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+@font-face {
+    font-family: 'airbnb_cereal_appbold';
+    src: url('../fonts/airbnbcerealbold-webfont.woff2') format('woff2'),
+         url('../fonts/airbnbcerealbold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+@font-face {
+    font-family: 'airbnb_cereal_appbook';
+    src: url('../fonts/airbnbcerealbook-webfont.woff2') format('woff2'),
+         url('../fonts/airbnbcerealbook-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* Fonts */
+
+.header-mobile:hover {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+ 
+
+/* Header Mobile  */
+
+.header-mobile{
+    width: 100vw;
+    margin: 0 auto;
+    height: 100px;
+    background-color: white;
+
+    position: fixed;
+
+    top: 0px;
+    left: 0px;
+    right: 0px;
+  
+}
+
+
+.header-mobile:hover {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+ 
+
+/* Header Mobile  */
+
+/* Nav Bar */
+
+.top-logo img {
+    width: 80px;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    
+}
+
+.img-container{
+    width: 90%;
+    margin: 0 auto;
+    z-index: -1;
+}
+
+.image {
+width: 100%;
+z-index: -1;
+
+}
+
+
+
+.container .menu-icon {
+   
+    color: #3B3B3B;
+
+    cursor: pointer;
+    z-index: 1;
+}
+
+.menu-icon {
+    font-size: 20px;
+}
+
+
+.menu-container {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+
+    background-color: #3B3B3B;
+
+    overflow: hidden;
+    transition: 1s ease-in-out ;
+}
+
+
+.menu-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+
+    margin-top: 30px ;
+}
+
+
+.menu-content a {
+    padding: 16px;
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+    display: block;
+    font-family: 'airbnb_cereal_appmedium';
+    
+
+    transition: .3s ease-in-out ;
+}
+
+
+
+.menu-content a:hover {
+    color: yellow;
+}
+
+
+
+.menu-container .closebtn {
+    position: absolute ;
+    top: 36px;
+    right: 48px ;
+    font-size: 40px ;
+    color: white;
+    z-index: 1;
+    cursor: pointer;
+}
+/* Nav Bar Mobile */
+
+.header-desktop {
+    display: none;
+}
+
+/* -------------------- */
+
+
+
+
+
+
+/* Form Container */
+
+.form-container{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 200px;
+
+
+    height: 90%;
+
+    background-color: white;
+}
+
+
+/* Form Container */
+
+
+
+/* Heading */
+.heading {
+
+    width: 90%;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+}
+
+.heading h1 {
+
+    font-family: 'airbnb_cereal_appmedium';
+    font-size: 26px;
+
+    color: #3B3B3B;
+
+    margin-bottom: -5px;
+}
+
+.heading p {
+
+    font-family: 'airbnb_cereal_applight';
+    font-size: 14px;
+
+    color: #3B3B3B
+}
+/* Heading */
+
+
+/* My Form */
+
+input{
+    font-family: 'airbnb_cereal_appmedium';
+    font-size: 16px;
+
+    color: #3B3B3B;
+
+    margin-bottom: -5px;
+}
+
+
+textarea{
+    font-family: 'airbnb_cereal_appmedium';
+    font-size: 16px;
+
+    color: #3B3B3B;
+
+    margin-bottom: -5px;
+}
+
+
+.button {
+
+    margin-bottom: 10px;
+
+ 
+    margin: 0 auto;
+
+}
+
+
+.button input {
+
+    font-family: 'airbnb_cereal_appmedium';
+    font-size: 16px;
+
+
+
+    color: #3B3B3B;
+    border: 1px solid  #3B3B3B;
+    border-radius: 4px;
+
+    padding: .5rem;
+
+
+    background-color: white;
+}
+
+.input_field {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 0px;
+}
+
+
+
+.input-size {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: solid;
+
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+
+.text_field {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.text-size {
+    width: 100%;
+
+
+    height: 200px;
+}
+
+
+#myform {
+
+    width: 90%;
+    height: 500px;
+
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-around;
+    align-content: center;
+
+    margin-bottom: 100px;
+}
+/* My Form */
+
+
+
+
+
+/* Footer Section */
+footer{
+    background-color: #011C67;
+    width: 100%;
+
+    height: 240px;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-items: center;
+}
+
+
+
+.f-divider {
+    width: 80%;
+ 
+    margin: 0 auto;
+
+    border: .5px solid white;
+    margin-top: 45px;
+    margin-bottom: 20px;
+}
+
+
+.social-wrapper {
+    width: 80%;
+
+    height: 100px;
+    margin: 0 auto;
+}
+
+
+.social {
+    margin-top: 50px;
+    margin-bottom: 20px;
+
+    padding: 0%;
+
+    display: flex;
+    text-decoration: none;
+    list-style-type:none;
+    align-items: center;
+    align-content: center;
+}
+
+.social .s {
+    flex: 1;
+    text-align: left;
+}
+
+.s a img{
+    margin-left: 5px ;
+    margin-right: 5px ;
+}
+
+
+
+
+img.dribbble:hover  {
+    fill: lightgrey !important; 
+    fill:currentColor ;
+ }
+
+
+
+
+
+.social .b-logo {
+    flex: 15;
+    text-align: right;
+}
+
+
+.b-logo img {
+    width: 140px;
+    margin-bottom: 0px;
+ 
+}
+
+footer{
+    background-color: #011C67;
+    width: 100%;
+
+    height: 150px;
+
+}
+
+
+.f-divider {
+   
+}
+
+
+.social-wrapper {
+    width: 80%;
+
+    height: 100px;
+    margin: 0 auto;
+}
+
+
+.social {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    padding: 0%;
+
+    display: flex;
+    text-decoration: none;
+    list-style-type:none;
+    align-items: center;
+    align-content: center;
+}
+
+.social .s {
+    flex: 1;
+    text-align: left;
+}
+
+.s a img{
+    width: 20px ;
+}
+
+
+
+
+
+.social .b-logo {
+    flex: 8;
+    text-align: right;
+}
+
+
+.b-logo img {
+    width: 70px;
+    margin-bottom: 0px;
+ 
+}
+/* Footer Section */
+
+
+
+
+
+
+
+@media (min-width:800px) {
+
+
+/* Header Desktop */
+    .header-mobile {
+        display: none;
+    }
+    
+    .header-desktop {
+        display: block;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 80px;
+        background-color: white;
+    
+    }
+    
+    header:hover {
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    
+    
+    nav ul {
+        width: 95%;
+        display: flex;
+        text-decoration: none;
+        list-style-type:none;
+        align-items: center;
+        align-content: center;
+    
+        margin-top: 20px;
+        margin-bottom: 20px ;
+    
+    }
+    
+    nav li {
+        flex: 1;
+        
+    }
+    
+    nav a {
+        text-decoration: none;
+        color: black;
+    
+        font-size: 14px;
+    
+        font-family: Airbnb Cereal App, sans-serif;
+    
+        color: #818181;
+    }
+    
+    nav a:hover {
+    
+        color: #3B3B3B;
+    }
+    
+    
+    .top-logo{
+        flex: 5.5;
+    }
+    
+    .top-logo img {
+        width: 80px;
+        margin-top: 5px;
+    }
+/* Header Desktop */
+
+    /* Form Container */
+    .form-container{
+        width: 600px;
+        margin: 0 auto;
+        margin-top: 200px;
+
+
+        height: 90%;
+
+        background-color: white;
+    }
+    /* Form Container */
+
+
+
+/* Footer */
+
+    .f-divider{
+        margin-top: 40px;
+    }
+
+    .s a img {
+        width: 30px;
+    }
+
+    .b-logo img {
+
+        width: 120px ;
+    }
+
+/* Footer */
+
+
+
+
+
+}
